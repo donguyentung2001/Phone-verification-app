@@ -100,7 +100,7 @@ app.post('/send-access-code/', (req,res) => {
     client.messages.create( { 
         body: "Your access code is " + accessCode, 
         to: phoneNumber, 
-        from: "+19388884702"
+        from: "YOUR_TWILIO_PHONE_NUMBER"
     }).then((message) => console.log(message.body))
 })
 
