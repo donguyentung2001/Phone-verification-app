@@ -5,13 +5,19 @@ An app that verifies phone number by access code, created with Express backend, 
 ## How to run 
 
 First, install the dependencies by: 
-'''
-npm install 
-'''
+```
+npm install
+```
+
 Run the Express backend in /texting/server by: 
-    node index.js 
+```
+node index.js
+```
+
 Run the React frontend in /texting/ by: 
-    yarn start
+```
+yarn start
+```
 The localhost runs at http://localhost:3000/ 
 
 ## Demonstration 
