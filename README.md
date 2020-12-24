@@ -8,6 +8,7 @@ First, install the dependencies by:
 ```
 npm install
 ```
+You need to sign up for a Twilio account and replace the accountsid and authToken in server/index.js with yours (line 14, 15). Additionally, replace the "from" field of client.messages.create (line 103)  with your Twilio phone number. 
 
 Run the Express backend in /texting/server by: 
 ```
