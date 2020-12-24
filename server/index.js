@@ -11,8 +11,8 @@ const bodyParser = require('body-parser')
 const port = 4000
 
 //set accountsID and authToken for new Twilio client
-const accountSid='ACbd7092eb9e21bc4a04038a2c589a0375' 
-const authToken='0feb7eb938bd5cd6a9b5e6086f76e605'
+const accountSid='YOUR__ACCOUNTS_ID' 
+const authToken='YOUR_AUTH_TOKEN'
 const client = new twilio (accountSid, authToken)
 
 //create express app
