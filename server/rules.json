@@ -1,0 +1,9 @@
+{
+  "rules": {
+    ".read": "now < 1611205200000",  
+    ".write": "now < 1611205200000",  
+    "phoneNumber": { 
+      ".indexOn": ["recipient"]
+    }
+  }
+}
